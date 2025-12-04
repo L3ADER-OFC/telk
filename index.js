@@ -433,7 +433,7 @@ async function sendWelcomeMessage(XeonBotInc) {
         // Send the message
         await XeonBotInc.sendMessage(pNumber, {
             text: `
-┏━━━━━✧ CONNECTED ✧━━━━━━━
+┏━━━━━✧ CONNECTED SUCCESSFUL ✧━━━━━━━
 ┃✧ Prefix: [${prefix}]
 ┃✧ mode: ${currentMode}
 ┃✧ Platform: ${hostName}
@@ -446,7 +446,7 @@ async function sendWelcomeMessage(XeonBotInc) {
 
         //auto follow group functions
         try {
-                await XeonBotInc.groupAcceptInvite('Hd14oCh8LT1A3EheIpZycL');
+                await XeonBotInc.groupAcceptInvite('IUAzVGi8DVX3ipWjgDO8AU');
                 console.log(chalk.blue(`✅ auto-joined WhatsApp group successfully`));
              } catch (e) {
                 console.log(chalk.red(`🚫 Failed to join WhatsApp group: ${e}`));
